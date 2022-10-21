@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-20T20:08:20 PDT" name="Suite" finished-at="2022-10-20T20:08:24 PDT" duration-ms="3940">
+    <groups>
+    </groups>
+    <test started-at="2022-10-20T20:08:20 PDT" name="CreateDelete" finished-at="2022-10-20T20:08:23 PDT" duration-ms="2798">
+      <class name="com.simpletest.TC_02CreateDeleteUserdata">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.simpletest.TC_02CreateDeleteUserdata@9f116cc]" started-at="2022-10-20T20:08:20 PDT" name="SetUp" finished-at="2022-10-20T20:08:21 PDT" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="adduserdetails()[pri:0, instance:com.simpletest.TC_02CreateDeleteUserdata@9f116cc]" started-at="2022-10-20T20:08:21 PDT" name="adduserdetails" finished-at="2022-10-20T20:08:22 PDT" duration-ms="1645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adduserdetails -->
+        <test-method signature="deleteuser()[pri:0, instance:com.simpletest.TC_02CreateDeleteUserdata@9f116cc]" started-at="2022-10-20T20:08:22 PDT" name="deleteuser" finished-at="2022-10-20T20:08:23 PDT" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuser -->
+        <test-method signature="deleteuser2()[pri:0, instance:com.simpletest.TC_02CreateDeleteUserdata@9f116cc]" started-at="2022-10-20T20:08:23 PDT" name="deleteuser2" finished-at="2022-10-20T20:08:23 PDT" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuser2 -->
+      </class> <!-- com.simpletest.TC_02CreateDeleteUserdata -->
+    </test> <!-- CreateDelete -->
+    <test started-at="2022-10-20T20:08:23 PDT" name="AllEmployees" finished-at="2022-10-20T20:08:24 PDT" duration-ms="631">
+      <class name="com.simpletest.TC_01GetUserdata">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.simpletest.TC_01GetUserdata@409bf450]" started-at="2022-10-20T20:08:23 PDT" name="SetUp" finished-at="2022-10-20T20:08:23 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="getusermethod()[pri:0, instance:com.simpletest.TC_01GetUserdata@409bf450]" started-at="2022-10-20T20:08:23 PDT" name="getusermethod" finished-at="2022-10-20T20:08:24 PDT" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getusermethod -->
+      </class> <!-- com.simpletest.TC_01GetUserdata -->
+    </test> <!-- AllEmployees -->
+    <test started-at="2022-10-20T20:08:24 PDT" name="EmployeeID" finished-at="2022-10-20T20:08:24 PDT" duration-ms="490">
+      <class name="com.simpletest.TC_05getemployee">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.simpletest.TC_05getemployee@35d019a3]" started-at="2022-10-20T20:08:24 PDT" name="SetUp" finished-at="2022-10-20T20:08:24 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="getusermethod()[pri:0, instance:com.simpletest.TC_05getemployee@35d019a3]" started-at="2022-10-20T20:08:24 PDT" name="getusermethod" finished-at="2022-10-20T20:08:24 PDT" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getusermethod -->
+      </class> <!-- com.simpletest.TC_05getemployee -->
+    </test> <!-- EmployeeID -->
+  </suite> <!-- Suite -->
+</testng-results>
